@@ -24,6 +24,26 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Spring Boot Starter Web: 包含了 Spring Web 和 Spring MVC -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Spring Boot Starter Data JPA: 包含了 Spring Data JPA 和 Hibernate -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+<!--            <version>5.1.49</version> &lt;!&ndash; 这是一个与 MySQL 5.7 兼容的版本 &ndash;&gt;-->
+        </dependency>
+
     </dependencies>
     <dependencyManagement>
         <dependencies>
